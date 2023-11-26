@@ -13,7 +13,7 @@
 
 
 <h1 align="center">
-  <b>VJ Botz</b>
+  <b>KANNADA CINIMAS</b>
 </h1>
 
 
@@ -37,7 +37,7 @@
 - [x] File Store
 ## Variables
 
-Read [this](https://telegram.dog/VJ_Botz) before you start messing up with your edits.
+Read [this](https://telegram.dog/KannadaA2Zfilms) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -51,40 +51,12 @@ Read [this](https://telegram.dog/VJ_Botz) before you start messing up with your 
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/VJBots/AutoFilterAdvance/blob/main/info.py) for more
+* Check [info.py](https://github.com/Rithish-vt/AutoFilterAdvance/blob/main/info.py) for more
 ## EXTRA FEATURES
 * `SELF_DELETE`: True if SELF_DELETE is On, False if Off
 * `SELF_DELETE_SECONDS`: Enter Seconds to be SELF_DELETE 
 * `START_TXT`: Enter Your Start Message
 * `ABOUT_TXT`: Enter Your About Message 
-
-
-## Deploy
-You can deploy this bot anywhere.
-
-<i>**[Watch Deploying Tutorial...](https://youtube.com/@Tech_VJ)**</i>
-
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=[/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/AutoFilterAdvance&branch=Tech_VJ&name=urlshortautofilterbot)
-
-<details><summary>Deploy To VPS</summary>
-<p>
-<pre>
-git clone https://github.com/VJBots/AutoFilterAdvance
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
 
 
 ## Commands
@@ -115,9 +87,6 @@ broadcast - to broadcast a message to all Eva Maria users
 batch - to create link for multiple posts
 link - to create link for one post
 ```
-## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/vj_bot_disscussion)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/vj_botz)
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
