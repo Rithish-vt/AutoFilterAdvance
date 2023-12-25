@@ -14,13 +14,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '1285641'))
 API_HASH = environ.get('API_HASH', '087fb7f4ceaf9a9babe8c2c27bbfc0e9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6499349626:AAE6kZ3KHi2zWo51W5PW9_3PGt8w5YjH7bE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6918852123:AAG3H9K2qGafrD8oVMSiR3A4ywA_vu3Bm_o")
 PORT = int(environ.get('PORT', '8080'))
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/2e2dd1e6dfdd20e88fb57.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6168162777').split()]
@@ -31,7 +31,7 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rithish0513:jMrgiDJkZ3xSZuJU@cluster0.umivjcw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rithishvt0513:32uPOkuSkQtknvXg@autofilterpremium.ise5cx1.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
