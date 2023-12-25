@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /KCAutofilter
 fi
-cd /KGAutoFilter
+cd /KCAutoFilter
 pip3 install -U -r requirements.txt
 echo "Bot Started...."
 python3 bot.py
