@@ -24,7 +24,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Bots"),
+                InlineKeyboardButton("Updates", url="https://t.me/KGcineloka"),
                 InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")
             ]
             ]
@@ -41,9 +41,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 Subscribe To our Channel 💗', url=f'https://t.me/KGcineloka')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/KcRobots')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -63,9 +63,9 @@ async def start(client, message):
             return
 
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 Subscribe To our Channel 💗', url=f'https://t.me/KGcineloka')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/KcRobots')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
