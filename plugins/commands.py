@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Updates", url="https://t.me/KGcineloka"),
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")
+                InlineKeyboardButton("Updates", url="https://t.me/KcRobots"),
+                InlineKeyboardButton("🍿 Telegram Channel 🍿", url="https:t.me/KGCineloka")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -228,7 +228,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 Telegram Channel 🍿", url="https://t.me/KGcineloka")] ] ),
         
         protect_content=True if pre == 'filep' else False,
         )
