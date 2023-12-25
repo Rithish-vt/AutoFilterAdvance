@@ -131,7 +131,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     
-                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 Telegram Channel 🍿", url="https://t.me/KGcineloka")] ] ),
                     
                     protect_content=msg.get('protect', False),
                     )
